@@ -709,6 +709,8 @@ html:not(.js) .panel+.panel{margin-top:72px}
 .dd-note{display:block;margin-top:4px;color:var(--muted);font-size:.92em;line-height:1.5}
 .intro-copy .lead+.lead{margin-top:1.1em}
 
+
+
 /* ==== Cosmic: графит, хром, звёзды (класс t-cosmic) ==== */
 .ticker{position:relative;overflow:hidden;background:var(--wood);border-block:1px solid var(--line-dark);padding:20px 0;color:var(--on-dark)}
 .ticker-track{display:flex;width:max-content;animation:tk-run 42s linear infinite}
@@ -739,14 +741,14 @@ html:not(.js) .panel+.panel{margin-top:72px}
 .t-cosmic .hero-title{font-size:clamp(2.5rem,5.2vw,4.5rem);line-height:1.04}
 .t-cosmic .hero-title em,.t-cosmic .sig-copy h2 em,.t-cosmic .band h2 em,.t-cosmic .seal-big{
   background:var(--chrome);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
-.t-cosmic .hero-title em{font-weight:500;padding-bottom:.06em;animation:cb-sheen 10s ease-in-out infinite alternate}
+.t-cosmic .hero-title em{font-weight:500;padding-bottom:.2em;margin-bottom:-.2em;animation:cb-sheen 10s ease-in-out infinite alternate}
 @keyframes cb-sheen{from{background-position:0% 50%}to{background-position:100% 50%}}
 @media (prefers-reduced-motion:reduce){.t-cosmic .hero-title em{animation:none}}
 .t-cosmic:lang(ko) .hero-title,.t-cosmic:lang(zh) .hero-title{font-size:clamp(2.2rem,4.6vw,3.8rem);line-height:1.22;font-weight:500}
 .t-cosmic:lang(ko) h2,.t-cosmic:lang(zh) h2{font-weight:500;line-height:1.28}
 .t-cosmic .intro-copy h2 em{background:linear-gradient(100deg,#1d2027 0%,#6d7480 30%,#262a31 55%,#5b626e 80%,#1d2027 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
-.t-cosmic .ticker-run span{background:var(--chrome);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.t-cosmic .ticker-run span{background:var(--chrome);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:.2em;margin-bottom:-.2em}
 .t-cosmic .ticker{background:#060709}
 .t-cosmic .tk-star{background:#cfd4db}
 
@@ -798,14 +800,14 @@ html:not(.js) .panel+.panel{margin-top:72px}
 @media (min-width:960px){.t-mina .hero::before{left:71%;top:-2%;width:min(1100px,82vw)}}
 .t-mina .hero-title{font-weight:500}
 .t-mina .hero-title em,.t-mina .intro-copy h2 em,.t-mina .seal-big{background:var(--goldtxt);-webkit-background-clip:text;background-clip:text;
-  color:transparent;-webkit-text-fill-color:transparent;padding-right:.1em}
+  color:transparent;-webkit-text-fill-color:transparent;padding:0 .12em .22em 0;margin-bottom:-.22em}
 .t-mina .seal{background:#fffaf3;border:1px solid rgba(var(--gold-rgb),.7);color:var(--gold-deep);
   box-shadow:0 0 0 6px rgba(255,250,243,.7),0 18px 36px -18px rgba(90,60,20,.5)}
 .t-mina .arch{box-shadow:0 40px 70px -40px rgba(70,45,15,.55),0 0 0 1px rgba(var(--gold-rgb),.25)}
 .t-mina .ticker{background:var(--cream);border-color:rgba(var(--gold-rgb),.3);color:var(--gold-deep);padding:16px 0}
 .t-mina .ticker-run{font-family:var(--font-head);font-style:italic;font-weight:500;text-transform:none;letter-spacing:.01em;
   font-size:clamp(1.25rem,2vw,1.75rem);gap:30px;padding-right:30px}
-.t-mina .ticker-run span{background:var(--goldtxt);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.t-mina .ticker-run span{padding-bottom:.2em;margin-bottom:-.2em;background:var(--goldtxt);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 .t-mina .tk-star{background:var(--gold);opacity:.7;width:11px;height:11px}
 .t-mina .rv-q{color:rgba(var(--gold-rgb),.75)}
 .t-mina .logo-img{height:72px}
